@@ -1,0 +1,154 @@
+header{
+    padding: 0px 80px;
+}
+
+.menu-mobile{
+    display: none;
+}
+
+.menu-btn{
+    display: none;
+}
+
+.menu-container{
+    display: inline-flex;
+    color: var(--light-color);
+}
+
+.menu-container a:hover{
+    text-decoration: underline;
+}
+
+.menu-element{
+    margin: 0px 12px;
+    color: var(--light-color);
+}
+
+.menu-element a{
+    color: var(--light-color);
+}
+
+.menu-element .submenu-container{
+    display:  none;
+    position: absolute;
+    min-width: min-content;
+}
+
+.menu-element:hover > .submenu-container{
+    display:  block;
+    background-color: var(--primary-color);
+}
+
+.menu-element .submenu-container li{
+    position: relative;
+    height: 35px;
+    margin: 12px;
+}
+
+.cover-device,
+.cover-container{
+    display: flex;
+    height: 100vh;
+    padding-top: 80px;
+    background-color: antiquewhite;
+    /* background-image: url('../images/cover1.png'); */
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    color: var(--light-color);
+}
+
+.cover-maquinado,
+.cover-desing,
+.cover-contact{
+    height: 100vh;
+}
+
+.cover-container.cover-about{
+    height: 100vh;
+}
+
+.cover-container.cover-second{
+    padding-top: 0;
+    height: 90vh;
+}
+
+.cover-container__title.about{
+    padding: 0 20px 0 80px;
+}
+
+.cover-container__title h1{
+    font-size: 2.2em;
+}
+
+.cover-elastomeros{
+    height: 100vh;
+}
+
+.introduction-container{
+    grid-template-columns: repeat(2, 1fr);
+    padding: 0px 80px;
+    margin-block: 100px;
+}
+
+.introduction-picture.calidad{
+    max-height: 550px;
+}
+
+.introduction-picture.calidad img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    border-radius: 8px;
+    align-items: center;
+}
+
+.introduction-picture img{
+    max-width: 300px;
+}
+
+.introduction-information.about{
+    margin: 0 auto;
+}
+
+.services-container{
+    grid-template-columns: repeat(auto-fit, 240px);
+    justify-content: space-between;
+    padding: 0 180px;
+}
+
+.products-device,
+.products-paileria{
+    grid-template-columns: repeat(auto-fit, minmax(170px, 220px));
+    padding-inline: 80px;
+}
+
+.service-grid__item{
+    height: 300px;
+}
+
+.container-type,
+.container-grid,
+.contact-information{
+    width: calc(100% - 160px);
+    margin: 40px auto;
+}
+
+.contact-data{
+    padding: 30px;
+}
+
+.cover-paileria{
+    height: 100vh;
+}
+
+.imagen-paileria picture{
+    width: 100%;
+    height: 100vh;
+}
+
+.tools-maquinados{
+    padding-inline: 80px;
+}
